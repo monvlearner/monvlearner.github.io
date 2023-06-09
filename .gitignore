@@ -1,0 +1,27 @@
+# 忽略编译生成的文件
+target/
+
+# 忽略Eclipse项目文件
+.classpath
+.project
+.settings/
+
+# 忽略IDEA项目文件
+.idea/
+
+# 忽略Maven构建日志
+mvn*.log
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略应用程序配置文件（根据需要自行修改）
+application.properties
+application.yml
+
+# 忽略日志文件（根据需要自行修改）
+logs/
+
+# 忽略其他自动生成的文件或目录
+*.iml
